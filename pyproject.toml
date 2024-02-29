@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "gen-ai-hackathon"
+version = "0.1.0"
+description = ""
+authors = ["Kazuki Nagai <platong8249@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.31.1"
+pytube = "^15.0.0"
+openai-whisper = {git = "https://github.com/openai/whisper.git"}
+openai = "^1.12.0"
+python-dotenv = "^1.0.1"
+langchain = "^0.1.9"
+langchain-openai = "^0.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
